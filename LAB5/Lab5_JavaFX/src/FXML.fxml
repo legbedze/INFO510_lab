@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" fx:id="TitleLabel" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: cyan;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <Label fx:id="registrationLabel" layoutX="231.0" layoutY="14.0" text="Registration" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="nameLabel" layoutX="54.0" layoutY="60.0" text="Name" />
+      <TextField fx:id="nameTextField" layoutX="119.0" layoutY="56.0" />
+      <Button fx:id="submitButton" layoutX="274.0" layoutY="353.0" mnemonicParsing="false" onAction="#submit" text="Submit">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label fx:id="AgeLabel" layoutX="58.0" layoutY="112.0" text="Age" />
+      <Label fx:id="emailLabel" layoutX="55.0" layoutY="157.0" text="Email" />
+      <TextField fx:id="ageTextField" layoutX="119.0" layoutY="108.0" />
+      <TextField fx:id="emailTextField" layoutX="119.0" layoutY="153.0" />
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</AnchorPane>
